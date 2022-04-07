@@ -1,0 +1,82 @@
+.base-card {
+  margin: 10px;
+  display: grid;
+  align-items: center;
+  border-top: 3px #d4936a solid;
+  border-bottom: 3px #d4936a solid;
+  box-shadow: 0 5px 10px 0 rgba(175, 171, 171, 0.932);;
+  border-radius: 5px;
+  padding: 20px;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-align: left;
+  outline: none;
+}
+.submit-btn {
+  margin-top: 25px;
+  min-height: 30px;
+  border: unset;
+  background-color: #d4936a;
+  color: rgb(229, 234, 238);
+  border-radius: 5px;
+}
+.submit-btn:active {
+  background-color: #817d7d;
+}
+.action-link {
+  margin-top: 10px;
+}
+.message {
+  height: 3vh;
+  border-radius: 4px;
+  border: 1px rgb(201, 197, 197) solid;
+  background-color: rgb(243, 243, 243);
+  outline: none;
+}
+.main-layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-main {
+  width: 100%;
+  max-width: 170vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.menu-main a {
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #9d999d;
+  letter-spacing: 2px;
+  font-size: 17px;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+.menu-main a:hover {
+  color: #414141;
+}
+h4 {
+  color: rgb(91, 92, 94);
+}
+.card {
+  width: 100%;
+  max-width: 40vh;
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  border-top: 3px #d4936a solid;
+  border-bottom: 3px #d4936a solid;
+  text-align: center;
+  padding: 20px;
+}
+.err {
+  color: rgb(199, 20, 20);
+}
