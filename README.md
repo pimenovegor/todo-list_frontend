@@ -1,6 +1,6 @@
 # todo-list_frontend
 
-Frontend чать pet проекта с собственным дизайном и собственной backend частью
+Frontend часть pet проекта с собственным дизайном и собственной backend частью
 https://github.com/pimenovegor/todo-list_backend
 
 ## Project setup
